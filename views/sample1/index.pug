@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+  link(rel='stylesheet', href='/stylesheets/sample-1.css')
+  script 
+    include ../../public/javascripts/mapview-sample1.js
+
+  div(class="sample-1-content")
+    div(class="map")
+      span Map
+      div#viewDiv
+    div(class="note") 
+      span Note
+  

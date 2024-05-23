@@ -1,0 +1,45 @@
+.home-content  {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  margin-top: 80px;
+  gap: 2rem;
+  align-items: center;
+}
+
+.home-title {
+  display: flex;
+  font-weight: 700;
+  color: #1C6EA4;
+}
+
+.sample-area {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-content: center;
+
+  :hover {
+    font-weight: 700;
+    background-color: #1C6EA4;
+    color: white;
+  }
+}
+
+.sample-item {
+  width: 200px;
+  height: 100px;
+
+  border: 1px solid #1C6EA4;
+  border-radius: 18px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
